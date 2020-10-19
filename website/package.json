@@ -3,8 +3,8 @@
   "name": "react-router-website",
   "version": "5.0.1",
   "scripts": {
-    "build": "cross-env NODE_ENV=production webpack -p",
-    "start": "webpack-dev-server --inline --host 0.0.0.0",
+    "build": "node init && cross-env NODE_ENV=production webpack -p",
+    "start": "node init && webpack-dev-server --inline --host 0.0.0.0",
     "lint": "eslint modules"
   },
   "dependencies": {
