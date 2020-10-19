@@ -21,7 +21,7 @@
   "module": "esm/react-router-config.js",
   "sideEffects": false,
   "scripts": {
-    "build": "rollup -c",
+    "build": "node init && rollup -c",
     "lint": "eslint modules"
   },
   "peerDependencies": {
